@@ -18,8 +18,8 @@ jobs:
         with:
           github_user_name: ishikabarnwal
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%2358A6FF&color_dots=%23ebedf0,%239DD9FF,%2358A6FF,%231F6FEB,%230D419D
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%2358A6FF&color_dots=%23161B22,%230D419D,%231F6FEB,%23388BFD,%2358A6FF
+            dist/github-contribution-grid-snake.svg?color_snake=%2358A6FF
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%2358A6FF
 
       - name: Deploy Snake
         uses: crazy-max/ghaction-github-pages@v4
